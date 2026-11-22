@@ -1,0 +1,16 @@
+Stage 1 Milestone Note
+
+Completed requirements:
+- Created the private GitHub repository and set up the project structure with src/ (no package declarations), docs/, and README.txt.
+- Defined the game state fields and initial values in Expedition's constructor (0x0 map, row and column -1, zeroed numeric counters and energy values, and NOT_STARTED status), along with compilable placeholder methods for later stages.
+- Implemented a console main menu in Main with new-game and exit options and invalid input handling.
+
+Known problems:
+- Random 2D map generation, movement, tile effects, command execution, and result file operations are not implemented yet, as they belong to later stages.
+- Selecting New Game in Main currently resets/displays initial state without generating a playable map yet.
+
+Design decision:
+- Kept later-stage methods in Expedition and ResultStore as minimal compilable placeholders returning safe default values so the project compiles cleanly on JDK 21 from Stage 1 onward without changing public signatures.
+
+Assistance:
+- Assistance was used: Used Gemini AI to help me with the file layouts, and uploading to GitHub
